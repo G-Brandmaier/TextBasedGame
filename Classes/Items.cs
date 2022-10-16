@@ -80,6 +80,7 @@ namespace Inlämningsuppgift3.Classes
                             player.ItemBag.Add(newItem);
                             roomItem.Used = true;
                             roomItem.Name = "Empty box";
+                            roomItem.Useable = false;
                             return;
                         }
                         else
@@ -117,7 +118,7 @@ namespace Inlämningsuppgift3.Classes
                     }
                 }
                 if (roomItem.Name.ToLower() == "west door" && currentRoom.Name == "first room" || roomItem.Name.ToLower() == "east door" && currentRoom.Name == "first room" ||
-                    roomItem.Name.ToLower() == "door" && currentRoom.Name == "right room" || currentRoom.Name == "left room")
+                    roomItem.Name.ToLower() == "door" && currentRoom.Name == "right room" || roomItem.Name.ToLower() == "door" && currentRoom.Name == "left room")
                 {
                     Console.WriteLine("The door is open, you can just walk through.\n");
                 }

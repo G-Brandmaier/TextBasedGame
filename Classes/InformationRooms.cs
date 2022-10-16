@@ -14,7 +14,7 @@ namespace Inlämningsuppgift3.Classes
             {
                 "A small dark room with no windows. There is an old looking table with a small lamp on it in the middle and 3 doors, one infront of me and 2 on the sides.",
                 "Another small room with a boarded window and only lit up by one hanging bulb from the ceiling. What looks like to be a broken chair in the corner also hides a strange looking box.",
-                "This room also have no windows, the onlys things there is a big empty bookshelf with a piece of paper in it and next to it an old mouldy cardboard box.",
+                "This room also have no windows, the only things there is a big empty bookshelf with a piece of paper in it and next to it an old mouldy cardboard box.",
                 "Another small room with nothing in it except wornout walls, you see a pile of wooden planks in the corner of the room. " +
                 "You move them and find a hidden tunnel that leads to your escape."
             };

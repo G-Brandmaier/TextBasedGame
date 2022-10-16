@@ -19,7 +19,6 @@ namespace Inlämningsuppgift3.Classes
             PlayerPosY = 0;
             ItemBag = new List<Item>();
             ItemBag.Add(new Item("Flashlight", true, false, "A small pocket size flashlight", true));
-            //ItemBag.Add(new Item("key", true, false, "big key", true));
         }
         public void PickUpItem(Item item, Room currentRoom)
         {
