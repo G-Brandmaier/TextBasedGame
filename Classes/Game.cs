@@ -88,7 +88,6 @@ namespace Inlämningsuppgift3.Classes
             {
                 Console.Write(" > ");
                 Move(Console.ReadLine());
-                Console.WriteLine();
             }
             else if (GameRunning)
             {
