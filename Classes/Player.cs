@@ -35,8 +35,7 @@ namespace Inlämningsuppgift3.Classes
             else if(item.PickUp == false)
             {
                 Console.WriteLine($"You can't pick this up.\n");
-            }
-                
+            }                
         }
         public void DropItem(Item item, Room Currentroom)
         {

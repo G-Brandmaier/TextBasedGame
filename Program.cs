@@ -8,7 +8,6 @@ namespace Inlämningsuppgift3
         {          
             Game newGame = new Game();
             newGame.StartGame();
-            Console.WriteLine("Press < ENTER > to exit the game");
             Console.ReadKey();
         }
     }

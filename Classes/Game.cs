@@ -114,7 +114,6 @@ namespace Inlämningsuppgift3.Classes
                         Console.WriteLine("You can't go that way.\n");
                         GameNextMove();
                     }
-
                 }
                 if (choice.ToLower().Contains("east") || choice.ToLower() == "e")
                 {
@@ -130,7 +129,6 @@ namespace Inlämningsuppgift3.Classes
                         Console.WriteLine("You can't go that way.\n");
                         GameNextMove();
                     }
-
                 }
                 if (choice.ToLower() == "north" || choice.ToLower() == "go north" || choice.ToLower() == "n")
                 {
@@ -328,6 +326,7 @@ namespace Inlämningsuppgift3.Classes
                         Console.WriteLine("You turn on your flashlight.\n");
                         Console.WriteLine($"{CurrentRoom.Description}");
                         Console.WriteLine($"\nCongratulation {NewPlayer.Name} you beat the game!");
+                        Console.WriteLine("\n\nPress < ENTER > to exit the game");
                         GameRunning = false;
                     }
                     if (choice.ToLower() == "no" || choice.ToLower() == "n")
@@ -335,6 +334,7 @@ namespace Inlämningsuppgift3.Classes
                         Console.WriteLine("In the moment of choice you accidentally drop the flashlight, it hits the floor and is now useless.");
                         Console.WriteLine("You feel overwhelmed by the darkness surrounding you.");
                         Console.WriteLine($"\nUnfortunately you didn't beat the game.");
+                        Console.WriteLine("\n\nPress < ENTER > to exit the game");
                         GameRunning = false;
                     }
                 }
@@ -343,6 +343,7 @@ namespace Inlämningsuppgift3.Classes
                     Console.WriteLine("\nAs you reach for your flashlight you remembered that you left it in another room.");
                     Console.WriteLine("You feel overwhelmed by the darkness surrounding you.");
                     Console.WriteLine($"\nUnfortunately you didn't beat the game.");
+                    Console.WriteLine("\n\nPress < ENTER > to exit the game");
                     GameRunning = false;
                 }
             }
